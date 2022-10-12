@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "input[type=\"number\"]::-webkit-outer-spin-button,\ninput[type=\"number\"]::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\nbutton {\n  cursor: pointer;\n\n  background-color: #ffffff;\n\n  border-radius: 50%;\n\n  padding: 0;\n}\n\n.hide {\n  overflow: hidden !important;\n  width: 0 !important;\n  height: 0 !important;\n  border: 0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n.help-content {\n  border: 1px solid #cccccc;\n\n  padding: 1rem;\n}\n\n.passenger-type-container {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n}\n\n.passenger-type-container > button {\n  width: 1.25rem;\n  height: 1.25rem;\n\n  color: #999999;\n\n  font-size: 0.75rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: 2px solid #999999;\n}\n\n.counter {\n  display: flex;\n  align-items: center;\n\n  height: 100px;\n}\n\n.counter > button {\n  width: 2rem;\n  height: 2rem;\n\n  font-size: 1.5rem;\n\n  border: 1px solid #cccccc;\n}\n\n.counter > input {\n  width: 3rem;\n\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: none;\n  border-bottom: 1px solid #000000;\n\n  margin: 0 1rem;\n}\n", "",{"version":3,"sources":["webpack://./src/global.css"],"names":[],"mappings":"AAAA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;;EAEf,yBAAyB;;EAEzB,kBAAkB;;EAElB,UAAU;AACZ;;AAEA;EACE,2BAA2B;EAC3B,mBAAmB;EACnB,oBAAoB;EACpB,oBAAoB;EACpB,oBAAoB;EACpB,qBAAqB;AACvB;;AAEA;EACE,yBAAyB;;EAEzB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,cAAc;EACd,eAAe;;EAEf,cAAc;;EAEd,kBAAkB;EAClB,iBAAiB;EACjB,kBAAkB;;EAElB,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,mBAAmB;;EAEnB,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;;EAEZ,iBAAiB;;EAEjB,yBAAyB;AAC3B;;AAEA;EACE,WAAW;;EAEX,eAAe;EACf,iBAAiB;EACjB,kBAAkB;;EAElB,YAAY;EACZ,gCAAgC;;EAEhC,cAAc;AAChB","sourcesContent":["input[type=\"number\"]::-webkit-outer-spin-button,\ninput[type=\"number\"]::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\nbutton {\n  cursor: pointer;\n\n  background-color: #ffffff;\n\n  border-radius: 50%;\n\n  padding: 0;\n}\n\n.hide {\n  overflow: hidden !important;\n  width: 0 !important;\n  height: 0 !important;\n  border: 0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n.help-content {\n  border: 1px solid #cccccc;\n\n  padding: 1rem;\n}\n\n.passenger-type-container {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n}\n\n.passenger-type-container > button {\n  width: 1.25rem;\n  height: 1.25rem;\n\n  color: #999999;\n\n  font-size: 0.75rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: 2px solid #999999;\n}\n\n.counter {\n  display: flex;\n  align-items: center;\n\n  height: 100px;\n}\n\n.counter > button {\n  width: 2rem;\n  height: 2rem;\n\n  font-size: 1.5rem;\n\n  border: 1px solid #cccccc;\n}\n\n.counter > input {\n  width: 3rem;\n\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: none;\n  border-bottom: 1px solid #000000;\n\n  margin: 0 1rem;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "input[type=\"number\"]::-webkit-outer-spin-button,\ninput[type=\"number\"]::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\na {\n  text-decoration: none;\n  color: #000000;\n}\n\nul,\nol,\nli {\n  list-style: none;\n\n  margin: 0;\n  padding: 0;\n}\n\nbutton {\n  cursor: pointer;\n\n  background-color: #ffffff;\n\n  border-radius: 50%;\n\n  padding: 0;\n}\n\nbutton:disabled {\n  cursor: not-allowed;\n}\n\n.hide {\n  overflow: hidden !important;\n  width: 0 !important;\n  height: 0 !important;\n  border: 0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n.help-content {\n  border: 1px solid #cccccc;\n\n  padding: 1rem;\n}\n\n.passenger-type-container {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n}\n\n.passenger-type-container > button {\n  width: 1.25rem;\n  height: 1.25rem;\n\n  color: #999999;\n\n  font-size: 0.75rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: 2px solid #999999;\n}\n\n.counter {\n  display: flex;\n  align-items: center;\n\n  height: 100px;\n}\n\n.counter > button {\n  width: 2rem;\n  height: 2rem;\n\n  font-size: 1.5rem;\n\n  border: 1px solid #cccccc;\n}\n\n.counter > input {\n  width: 3rem;\n\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: none;\n  border-bottom: 1px solid #000000;\n\n  margin: 0 1rem;\n}\n\n.carousel-container {\n  position: relative;\n\n  width: 470px;\n\n  overflow: hidden;\n}\n\n#carousel-wrapper {\n  display: flex;\n  gap: 10px;\n\n  position: relative;\n\n  width: 1190px;\n\n  transform: translateX(0);\n  transition-duration: 700ms;\n}\n\n#carousel-wrapper > li {\n  position: relative;\n}\n\n#carousel-wrapper > li > a > img {\n  width: 230px;\n}\n\n.description {\n  position: absolute;\n  top: 0;\n\n  width: calc(100% - 32px);\n\n  margin: auto;\n  padding: 20px 16px;\n}\n\n.description > .title {\n  font-weight: bold;\n\n  margin-top: 0;\n  margin-bottom: 8px;\n}\n\n.description > .seat {\n  margin-bottom: 8px;\n}\n\n.description > .price {\n  font-weight: bold;\n\n  color: #11277b;\n\n  margin-top: 0;\n}\n\n#left-button {\n  position: absolute;\n  top: 50%;\n\n  width: 60px;\n  height: 60px;\n\n  background-color: #000000cc;\n\n  border-radius: 50%;\n\n  z-index: 1;\n\n  transform: translate(-50%, -50%);\n}\n\n#right-button {\n  position: absolute;\n  top: 50%;\n  right: 0;\n\n  width: 60px;\n  height: 60px;\n\n  background-color: #000000cc;\n\n  border-radius: 50%;\n\n  z-index: 1;\n\n  transform: translate(50%, -50%);\n}\n\n#left-button:disabled,\n#right-button:disabled {\n  background-color: #888888cc;\n}\n\n.left-arrow {\n  position: absolute;\n  top: 50%;\n  left: 65%;\n\n  width: 10px;\n  height: 10px;\n\n  border-top: 2px solid #ffffff;\n  border-left: 2px solid #ffffff;\n\n  transform: rotate(-45deg) translate(50%, -25%);\n}\n\n.right-arrow {\n  position: absolute;\n  top: 50%;\n  right: 75%;\n\n  width: 10px;\n  height: 10px;\n\n  border-top: 2px solid #ffffff;\n  border-right: 2px solid #ffffff;\n\n  transform: rotate(45deg) translate(0, -75%);\n}\n", "",{"version":3,"sources":["webpack://./src/global.css"],"names":[],"mappings":"AAAA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,qBAAqB;EACrB,cAAc;AAChB;;AAEA;;;EAGE,gBAAgB;;EAEhB,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,eAAe;;EAEf,yBAAyB;;EAEzB,kBAAkB;;EAElB,UAAU;AACZ;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,2BAA2B;EAC3B,mBAAmB;EACnB,oBAAoB;EACpB,oBAAoB;EACpB,oBAAoB;EACpB,qBAAqB;AACvB;;AAEA;EACE,yBAAyB;;EAEzB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,cAAc;EACd,eAAe;;EAEf,cAAc;;EAEd,kBAAkB;EAClB,iBAAiB;EACjB,kBAAkB;;EAElB,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,mBAAmB;;EAEnB,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;;EAEZ,iBAAiB;;EAEjB,yBAAyB;AAC3B;;AAEA;EACE,WAAW;;EAEX,eAAe;EACf,iBAAiB;EACjB,kBAAkB;;EAElB,YAAY;EACZ,gCAAgC;;EAEhC,cAAc;AAChB;;AAEA;EACE,kBAAkB;;EAElB,YAAY;;EAEZ,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,SAAS;;EAET,kBAAkB;;EAElB,aAAa;;EAEb,wBAAwB;EACxB,0BAA0B;AAC5B;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,MAAM;;EAEN,wBAAwB;;EAExB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;;EAEjB,aAAa;EACb,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;;EAEjB,cAAc;;EAEd,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,QAAQ;;EAER,WAAW;EACX,YAAY;;EAEZ,2BAA2B;;EAE3B,kBAAkB;;EAElB,UAAU;;EAEV,gCAAgC;AAClC;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,QAAQ;;EAER,WAAW;EACX,YAAY;;EAEZ,2BAA2B;;EAE3B,kBAAkB;;EAElB,UAAU;;EAEV,+BAA+B;AACjC;;AAEA;;EAEE,2BAA2B;AAC7B;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,SAAS;;EAET,WAAW;EACX,YAAY;;EAEZ,6BAA6B;EAC7B,8BAA8B;;EAE9B,8CAA8C;AAChD;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,UAAU;;EAEV,WAAW;EACX,YAAY;;EAEZ,6BAA6B;EAC7B,+BAA+B;;EAE/B,2CAA2C;AAC7C","sourcesContent":["input[type=\"number\"]::-webkit-outer-spin-button,\ninput[type=\"number\"]::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\na {\n  text-decoration: none;\n  color: #000000;\n}\n\nul,\nol,\nli {\n  list-style: none;\n\n  margin: 0;\n  padding: 0;\n}\n\nbutton {\n  cursor: pointer;\n\n  background-color: #ffffff;\n\n  border-radius: 50%;\n\n  padding: 0;\n}\n\nbutton:disabled {\n  cursor: not-allowed;\n}\n\n.hide {\n  overflow: hidden !important;\n  width: 0 !important;\n  height: 0 !important;\n  border: 0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n.help-content {\n  border: 1px solid #cccccc;\n\n  padding: 1rem;\n}\n\n.passenger-type-container {\n  display: flex;\n  align-items: center;\n  gap: 0.5rem;\n}\n\n.passenger-type-container > button {\n  width: 1.25rem;\n  height: 1.25rem;\n\n  color: #999999;\n\n  font-size: 0.75rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: 2px solid #999999;\n}\n\n.counter {\n  display: flex;\n  align-items: center;\n\n  height: 100px;\n}\n\n.counter > button {\n  width: 2rem;\n  height: 2rem;\n\n  font-size: 1.5rem;\n\n  border: 1px solid #cccccc;\n}\n\n.counter > input {\n  width: 3rem;\n\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n\n  border: none;\n  border-bottom: 1px solid #000000;\n\n  margin: 0 1rem;\n}\n\n.carousel-container {\n  position: relative;\n\n  width: 470px;\n\n  overflow: hidden;\n}\n\n#carousel-wrapper {\n  display: flex;\n  gap: 10px;\n\n  position: relative;\n\n  width: 1190px;\n\n  transform: translateX(0);\n  transition-duration: 700ms;\n}\n\n#carousel-wrapper > li {\n  position: relative;\n}\n\n#carousel-wrapper > li > a > img {\n  width: 230px;\n}\n\n.description {\n  position: absolute;\n  top: 0;\n\n  width: calc(100% - 32px);\n\n  margin: auto;\n  padding: 20px 16px;\n}\n\n.description > .title {\n  font-weight: bold;\n\n  margin-top: 0;\n  margin-bottom: 8px;\n}\n\n.description > .seat {\n  margin-bottom: 8px;\n}\n\n.description > .price {\n  font-weight: bold;\n\n  color: #11277b;\n\n  margin-top: 0;\n}\n\n#left-button {\n  position: absolute;\n  top: 50%;\n\n  width: 60px;\n  height: 60px;\n\n  background-color: #000000cc;\n\n  border-radius: 50%;\n\n  z-index: 1;\n\n  transform: translate(-50%, -50%);\n}\n\n#right-button {\n  position: absolute;\n  top: 50%;\n  right: 0;\n\n  width: 60px;\n  height: 60px;\n\n  background-color: #000000cc;\n\n  border-radius: 50%;\n\n  z-index: 1;\n\n  transform: translate(50%, -50%);\n}\n\n#left-button:disabled,\n#right-button:disabled {\n  background-color: #888888cc;\n}\n\n.left-arrow {\n  position: absolute;\n  top: 50%;\n  left: 65%;\n\n  width: 10px;\n  height: 10px;\n\n  border-top: 2px solid #ffffff;\n  border-left: 2px solid #ffffff;\n\n  transform: rotate(-45deg) translate(50%, -25%);\n}\n\n.right-arrow {\n  position: absolute;\n  top: 50%;\n  right: 75%;\n\n  width: 10px;\n  height: 10px;\n\n  border-top: 2px solid #ffffff;\n  border-right: 2px solid #ffffff;\n\n  transform: rotate(45deg) translate(0, -75%);\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -528,6 +528,305 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/ts/step1.ts":
+/*!*************************!*\
+  !*** ./src/ts/step1.ts ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ "./src/ts/utils.ts");
+
+var helpBoxButton = document.querySelector("#help-box");
+var adultHelpContextButton = document.querySelector("#adult-help-context");
+var addPassengerButton = document.querySelector("#add-passenger");
+var reducePassengerButton = document.querySelector("#reduce-passenger");
+var passengerCount = document.querySelector("#passenger-count");
+var MIN_PASSENGER_COUNT = 1;
+var MAX_PASSENGER_COUNT = 3;
+helpBoxButton.addEventListener("click", function () {
+    if (adultHelpContextButton.classList.contains("hide")) {
+        adultHelpContextButton.classList.remove("hide");
+        return;
+    }
+    adultHelpContextButton.classList.add("hide");
+});
+addPassengerButton.addEventListener("click", function () {
+    if (passengerCount.valueAsNumber < MAX_PASSENGER_COUNT) {
+        passengerCount.value = (passengerCount.valueAsNumber + 1).toString();
+        (0,_utils__WEBPACK_IMPORTED_MODULE_0__.announce)("\uC131\uC778 \uC2B9\uAC1D \uCD94\uAC00 ".concat(passengerCount.value));
+    }
+});
+reducePassengerButton.addEventListener("click", function () {
+    if (passengerCount.valueAsNumber > MIN_PASSENGER_COUNT) {
+        passengerCount.value = (passengerCount.valueAsNumber - 1).toString();
+        (0,_utils__WEBPACK_IMPORTED_MODULE_0__.announce)("\uC131\uC778 \uC2B9\uAC1D \uAC10\uC18C ".concat(passengerCount.value));
+    }
+});
+passengerCount.addEventListener("input", function (e) {
+    var inputValue = Number(e.target.value);
+    if (inputValue === 0) {
+        return;
+    }
+    if (inputValue > MAX_PASSENGER_COUNT) {
+        (0,_utils__WEBPACK_IMPORTED_MODULE_0__.announce)("".concat(inputValue, "\uC774 \uC785\uB825\uB418\uC5B4 \uCD5C\uB300 \uC2B9\uAC1D\uC778 ").concat(MAX_PASSENGER_COUNT, "\uBA85\uC73C\uB85C \uBCC0\uACBD\uB429\uB2C8\uB2E4."));
+        e.target.value = MAX_PASSENGER_COUNT.toString();
+    }
+    if (inputValue < MIN_PASSENGER_COUNT) {
+        (0,_utils__WEBPACK_IMPORTED_MODULE_0__.announce)("".concat(inputValue, "\uC774 \uC785\uB825\uB418\uC5B4 \uCD5C\uC18C \uC2B9\uAC1D\uC778 ").concat(MIN_PASSENGER_COUNT, "\uBA85\uC73C\uB85C \uBCC0\uACBD\uB429\uB2C8\uB2E4."));
+        e.target.value = MIN_PASSENGER_COUNT.toString();
+    }
+});
+
+
+/***/ }),
+
+/***/ "./src/ts/step2.ts":
+/*!*************************!*\
+  !*** ./src/ts/step2.ts ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _images_Dubai_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../images/Dubai.jpg */ "./src/images/Dubai.jpg");
+/* harmony import */ var _images_Fukuoka_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/Fukuoka.jpg */ "./src/images/Fukuoka.jpg");
+/* harmony import */ var _images_Phuket_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/Phuket.jpg */ "./src/images/Phuket.jpg");
+/* harmony import */ var _images_ChiangMai_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/ChiangMai.jpg */ "./src/images/ChiangMai.jpg");
+/* harmony import */ var _images_Barcelona_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/Barcelona.jpg */ "./src/images/Barcelona.jpg");
+/* harmony import */ var _images_Hanoi_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/Hanoi.jpg */ "./src/images/Hanoi.jpg");
+/* harmony import */ var _images_Rome_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/Rome.jpg */ "./src/images/Rome.jpg");
+/* harmony import */ var _images_Honolulu_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/Honolulu.jpg */ "./src/images/Honolulu.jpg");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./utils */ "./src/ts/utils.ts");
+
+
+
+
+
+
+
+
+
+var carouselItems = [
+    {
+        src: _images_Dubai_jpg__WEBPACK_IMPORTED_MODULE_0__,
+        alt: "서울 또는 인천에서 두바이로",
+        title: "서울/인천 - 두바이",
+        seat: "일반석 왕복",
+        price: "1,158,000",
+    },
+    {
+        src: _images_Fukuoka_jpg__WEBPACK_IMPORTED_MODULE_1__,
+        alt: "서울 또는 인천에서 후쿠오카로",
+        title: "서울/인천 - 후쿠오카",
+        seat: "일반석 왕복",
+        price: "340,400",
+    },
+    {
+        src: _images_Phuket_jpg__WEBPACK_IMPORTED_MODULE_2__,
+        alt: "서울 또는 인천에서 푸껫으로",
+        title: "서울/인천 - 푸껫",
+        seat: "일반석 왕복",
+        price: "704,100",
+    },
+    {
+        src: _images_ChiangMai_jpg__WEBPACK_IMPORTED_MODULE_3__,
+        alt: "서울 또는 인천에서 치앙마이로",
+        title: "서울/인천 - 치앙마이",
+        seat: "일반석 왕복",
+        price: "839,100",
+    },
+    {
+        src: _images_Barcelona_jpg__WEBPACK_IMPORTED_MODULE_4__,
+        alt: "서울 또는 인천에서 바르셀로나로",
+        title: "서울/인천 - 바르셀로나",
+        seat: "일반석 왕복",
+        price: "1,546,300",
+    },
+    {
+        src: _images_Hanoi_jpg__WEBPACK_IMPORTED_MODULE_5__,
+        alt: "서울 또는 인천에서 하노이로",
+        title: "서울/인천 - 하노이",
+        seat: "일반석 왕복",
+        price: "527,500",
+    },
+    {
+        src: _images_Rome_jpg__WEBPACK_IMPORTED_MODULE_6__,
+        alt: "서울 또는 인천에서 로마로",
+        title: "서울/인천 - 로마",
+        seat: "일반석 왕복",
+        price: "1,454,200",
+    },
+    {
+        src: _images_Honolulu_jpg__WEBPACK_IMPORTED_MODULE_7__,
+        alt: "서울 또는 인천에서 호놀룰루로",
+        title: "서울/인천 - 호놀룰루",
+        seat: "일반석 왕복",
+        price: "1,244,900",
+    },
+];
+var widthPerItem = 240;
+var carouselWrapper = document.querySelector("#carousel-wrapper");
+function renderCarousel() {
+    carouselItems.forEach(function (v, i) {
+        var listItem = document.createElement("li");
+        listItem.tabIndex = i;
+        var linkButton = document.createElement("a");
+        linkButton.ariaLabel = "".concat(v.title, " ").concat(v.seat, " ").concat(v.price, " \uB300\uD55C\uBBFC\uAD6D \uC6D0");
+        var item = document.createElement("img");
+        item.src = v.src;
+        item.alt = v.alt;
+        var description = document.createElement("div");
+        description.className = "description";
+        var titleDescription = document.createElement("p");
+        titleDescription.className = "title";
+        titleDescription.textContent = v.title;
+        var seatDescription = document.createElement("p");
+        seatDescription.className = "seat";
+        seatDescription.textContent = v.seat;
+        var priceDescription = document.createElement("p");
+        priceDescription.className = "price";
+        priceDescription.textContent = "KRW ".concat(v.price.toLocaleString(), " ~");
+        priceDescription.ariaLabel = "".concat(v.price.toLocaleString(), " \uB300\uD55C\uBBFC\uAD6D \uC6D0");
+        description.insertAdjacentElement("beforeend", titleDescription);
+        description.insertAdjacentElement("beforeend", seatDescription);
+        description.insertAdjacentElement("beforeend", priceDescription);
+        linkButton.insertAdjacentElement("beforeend", item);
+        linkButton.insertAdjacentElement("beforeend", description);
+        listItem.insertAdjacentElement("beforeend", linkButton);
+        carouselWrapper.insertAdjacentElement("beforeend", listItem);
+    });
+}
+var leftButton = document.querySelector("#left-button");
+var rightButton = document.querySelector("#right-button");
+leftButton.disabled = true;
+leftButton.addEventListener("click", function () {
+    var currentX = (0,_utils__WEBPACK_IMPORTED_MODULE_8__.getTranslateX)(carouselWrapper);
+    rightButton.disabled = false;
+    carouselWrapper.style.transform = "translateX(".concat(currentX + widthPerItem, "px)");
+    if (currentX + widthPerItem >= 0) {
+        (0,_utils__WEBPACK_IMPORTED_MODULE_8__.announce)("\uBAA9\uB85D\uC758 \uC2DC\uC791\uC785\uB2C8\uB2E4.");
+        leftButton.disabled = true;
+    }
+});
+rightButton.addEventListener("click", function () {
+    var currentX = (0,_utils__WEBPACK_IMPORTED_MODULE_8__.getTranslateX)(carouselWrapper);
+    leftButton.disabled = false;
+    carouselWrapper.style.transform = "translateX(".concat(currentX - widthPerItem, "px)");
+    if (currentX - widthPerItem <= -(widthPerItem * 6)) {
+        (0,_utils__WEBPACK_IMPORTED_MODULE_8__.announce)("\uBAA9\uB85D\uC758 \uB05D\uC785\uB2C8\uB2E4.");
+        rightButton.disabled = true;
+    }
+});
+renderCarousel();
+
+
+/***/ }),
+
+/***/ "./src/ts/utils.ts":
+/*!*************************!*\
+  !*** ./src/ts/utils.ts ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "announce": () => (/* binding */ announce),
+/* harmony export */   "getTranslateX": () => (/* binding */ getTranslateX)
+/* harmony export */ });
+function announce(message) {
+    var announceElement = document.querySelector("#announce");
+    announceElement.textContent = message;
+}
+function getTranslateX(el) {
+    if (!el.style.transform)
+        return 0;
+    return Number(el.style.transform.split("translateX(")[1].split("px)")[0]);
+}
+
+
+
+/***/ }),
+
+/***/ "./src/images/Barcelona.jpg":
+/*!**********************************!*\
+  !*** ./src/images/Barcelona.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "1364b638673a2d358a97.jpg";
+
+/***/ }),
+
+/***/ "./src/images/ChiangMai.jpg":
+/*!**********************************!*\
+  !*** ./src/images/ChiangMai.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "a1fbb3caae9fb90aa316.jpg";
+
+/***/ }),
+
+/***/ "./src/images/Dubai.jpg":
+/*!******************************!*\
+  !*** ./src/images/Dubai.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c8f29c878a50a7c34954.jpg";
+
+/***/ }),
+
+/***/ "./src/images/Fukuoka.jpg":
+/*!********************************!*\
+  !*** ./src/images/Fukuoka.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "eb527deba7367905fb6a.jpg";
+
+/***/ }),
+
+/***/ "./src/images/Hanoi.jpg":
+/*!******************************!*\
+  !*** ./src/images/Hanoi.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "97ee92d898c8b82e67d1.jpg";
+
+/***/ }),
+
+/***/ "./src/images/Honolulu.jpg":
+/*!*********************************!*\
+  !*** ./src/images/Honolulu.jpg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "d0d14931afbd7764058e.jpg";
+
+/***/ }),
+
+/***/ "./src/images/Phuket.jpg":
+/*!*******************************!*\
+  !*** ./src/images/Phuket.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8387ed1476129c1498ac.jpg";
+
+/***/ }),
+
+/***/ "./src/images/Rome.jpg":
+/*!*****************************!*\
+  !*** ./src/images/Rome.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "de2128a1ea2bdf7a4111.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -581,6 +880,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -597,6 +908,26 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -611,51 +942,11 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./global.css */ "./src/global.css");
+/* harmony import */ var _ts_step1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ts/step1 */ "./src/ts/step1.ts");
+/* harmony import */ var _ts_step2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ts/step2 */ "./src/ts/step2.ts");
 
-var helpBoxButton = document.querySelector("#help-box");
-var adultHelpContextButton = document.querySelector("#adult-help-context");
-var addPassengerButton = document.querySelector("#add-passenger");
-var reducePassengerButton = document.querySelector("#reduce-passenger");
-var announceElement = document.querySelector("#announce");
-var passengerAmount = document.querySelector("#passenger-amount");
-var MIN_PASSENGER_AMOUNT = 1;
-var MAX_PASSENGER_AMOUNT = 3;
-var announce = function (message) {
-    announceElement.textContent = message;
-};
-helpBoxButton.addEventListener("click", function () {
-    if (adultHelpContextButton.classList.contains("hide")) {
-        adultHelpContextButton.classList.remove("hide");
-        return;
-    }
-    adultHelpContextButton.classList.add("hide");
-});
-addPassengerButton.addEventListener("click", function () {
-    if (Number(passengerAmount.value) < MAX_PASSENGER_AMOUNT) {
-        passengerAmount.value = (Number(passengerAmount.value) + 1).toString();
-        announce("\uC131\uC778 \uC2B9\uAC1D \uCD94\uAC00 ".concat(passengerAmount.value));
-    }
-});
-reducePassengerButton.addEventListener("click", function () {
-    if (Number(passengerAmount.value) > MIN_PASSENGER_AMOUNT) {
-        passengerAmount.value = (Number(passengerAmount.value) - 1).toString();
-        announce("\uC131\uC778 \uC2B9\uAC1D \uCD94\uAC10 ".concat(passengerAmount.value));
-    }
-});
-passengerAmount.addEventListener("input", function (e) {
-    var inputValue = Number(e.target.value);
-    if (inputValue === 0) {
-        return;
-    }
-    if (inputValue > MAX_PASSENGER_AMOUNT) {
-        announce("".concat(inputValue, "\uC774 \uC785\uB825\uB418\uC5B4 \uCD5C\uB300 \uC2B9\uAC1D\uC778 ").concat(MAX_PASSENGER_AMOUNT, "\uBA85\uC73C\uB85C \uBCC0\uACBD\uB429\uB2C8\uB2E4."));
-        e.target.value = MAX_PASSENGER_AMOUNT.toString();
-    }
-    if (inputValue < MIN_PASSENGER_AMOUNT) {
-        announce("".concat(inputValue, "\uC774 \uC785\uB825\uB418\uC5B4 \uCD5C\uC18C \uC2B9\uAC1D\uC778 ").concat(MIN_PASSENGER_AMOUNT, "\uBA85\uC73C\uB85C \uBCC0\uACBD\uB429\uB2C8\uB2E4."));
-        e.target.value = MIN_PASSENGER_AMOUNT.toString();
-    }
-});
+
+
 
 })();
 
